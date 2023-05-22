@@ -10,14 +10,17 @@ body{
 
 header{
     margin-bottom: 8px;
-    background-color: beige;
+    background-color: #E0A960;
+    width: 100vw;
 }
 
 nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: aliceblue;}
+    background-color: #E0A960;
+    padding: 8px;
+}
 
 nav li, nav div{
     background-color: bisque;
@@ -44,16 +47,16 @@ nav li{
     margin: 0 4px;
 }
 
-
-main *{
-    border: 2px solid red;
-}
 main{
-    border: 2px solid blue;
     display: flex;
     flex-direction: column;
 }
 
 main > div{
-    margin-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid grey;
+    background-color: #87D4FF;
 }
