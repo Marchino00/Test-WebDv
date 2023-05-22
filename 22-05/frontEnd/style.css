@@ -58,4 +58,5 @@ main > div{
     justify-content: center;
     align-items: center;
     background-color: #87D4FF;
+    padding: 0 16px;
 }
